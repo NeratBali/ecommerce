@@ -1,0 +1,74 @@
+body{
+    background-image: url(../Images/ecom.avif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#top{
+    background-color: burlywood;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.icon{
+    height: 50px;
+    margin-right: 3px;
+    margin-left: 20px;
+}
+#promises{
+    flex-direction: row;
+}
+img{
+    display: inline-flex;
+}
+h3{
+    display: inline-flex;
+}
+#cart{
+    margin-left: 0px;
+}
+#Search{
+    margin-left: 200px;
+    width: 400px;
+}
+#srchBtn{
+    margin-right: 15px;
+}
+#mainContainer{
+    margin-top: 15px;
+}
+#categories{
+    background-color: white;
+    float: left;
+}
+.icon2{
+    height: 19px;
+    margin-right: 2px;
+}
+#navItems{
+    float: right;
+}
+#background{
+    background-color: rgba(222, 184, 135, 0.9) ;
+}
+#categoriesBtn{
+    width:300px;
+    display: flex;
+    align-content: start;
+    cursor: pointer;
+    
+}
+#categoriesBtn:hover{
+    color: orangered;
+}
+#carouselItem{
+    height: 400px;
+    width: 1600px;
+
+}
+#carouselContainer{
+    margin-left: 80px;
+}
+
